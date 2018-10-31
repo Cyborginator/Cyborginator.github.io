@@ -1,0 +1,36 @@
+Keys:
+
+To Draw a shape hold down the mouse and drag it around
+
+To change the shape:
+
+'e' for ellipses
+'s' for squares
+'l' (lowercase L) for lines
+'i' for the image Dat Boi
+
+To change the color:
+
+'r' for red
+'g' for green
+'b' for blue
+'c' for mixture of blue and green like cyan
+'v' for mixture of red and blue like violet
+'a' for mixture of red and green which looks like autumn colors
+'d' for default random rainbow color
+
+To change the transparency:
+
+'t' to make shape transparent
+'o' to make shape opaque
+
+To change the size:
+
+'1' to make the size grow from the middle out to the max size of the screen
+'2' to make the size shrink from the default size or max screen size to the smallest size of the object
+'3' to make the size the original default
+
+To clear print or save image:
+
+'x' or 'X' to clear the screen to blank gray canvas
+'p' or 'P' to take and save a screenshot

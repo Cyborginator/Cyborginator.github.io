@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Processing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+		
+	<link rel="stylesheet" type="text/css" href="portfoliostyles.css">
+	
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Portfolio</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Art 74
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="glitch.html">Glitch</a></li>
+          <li><a href="mememashup.html">Meme Mashup</a></li>
+		  <li><a href="minecraft.html">Minecraft</a></li>
+          <li><a href="3dprint.html">3D Print</a></li>
+		  <li><a href="intronetart.html">Net Art</a></li>
+		  <li><a href="processing.html">Processing</a></li>
+		  <li><a href="finalproject.html">Final Project</a></li>
+        </ul>
+      </li>
+      <li><a href="instamorphproject.html">Instamorph Project</a></li>
+      <li><a href="instamorphproject2.html">Instamorph Project 2</a></li>
+		<li><a href="skullmask.html">Skull Mask</a></li>
+		<li><a href="3dprintedprop.html">3D Printed Prop</a></li>
+		<li><a href="3dprinter+model.html">3D Printer & Model</a></li>
+    </ul>
+  </div>
+</nav>
+  <h1>Processing</h1>
+    <p>In this project I designed two programs in processing, one that drew a self portrait of myself using the given shapes and another that was a drawing program.</p>
+	<p>For the self portrait I used a lot of ellipses of varying colors for parts like the face and eyes and arcs for hair, eyebrows, and mouth. For the neck I used a rectangle and the nose I used a few vertexes, and once I arranged them symetrically it came out pretty close to how I look.</p>
+	<img src="selfportraitupdated2.png" class="img-rounded img-responsive" alt "Self Portrait" class="center-block" >
+	<p></p>
+	<p>The drawing program was a lot more complex than the portrait, which is why the file size is over 10 times bigger. It draws ellipses, squares, or lines of varying colors and sizes depending on the key input of the user, and only draws when the mouse is clicked.</p>
+	<p>To create it I made local char variables that saved different keys pressed, like 's' for square got saved to the shape variable and 'b' for blue got saved to the colorKey variable. I then made a bunch of enclosed if and if else statements to make the program draw depending on what keys were pressed, along with an else default for if keys weren't pressed.</p>
+	<p>The color I made to be random(255) in the RGB places so it'd be a random color of the rainbow as default, along with random different stroke color. But I also added the option to type a key and get a random hue of a certain color of RGB or a combination, plus a key to set it back to rainbow.</p>
+	<p>Additionally I also had a option to change the transparency and size. For transparency you could select a key to change it transparent or opaque, and it made the shape a random level of transparency. The size you could change to grow to the max size to the minimum size or vice versa, plus a ke to set it back to default.</p>
+	<img src="00cw_m-21949.png" class="img-rounded img-responsive" alt "Drawing Program" class="center-block" >
+	<p></p>
+	<p></p>
+	<img src="00cw_m-23490.png" class="img-rounded img-responsive" alt "Drawing Program 2" class="center-block" >
+	<p></p>
+	<p>Here's my files if you want to download and check them out, Portrait is 1kb and Drawing Program is 11kb. Also included are the instructions as a text file.</p>
+	<p><a href="downloads/portrait.pde">Portrait</a></p>
+	<p><a href="downloads/drawing_program.pde">Drawing Program</a></p>
+	<p><a href="downloads/drawingprograminstructions.txt">Drawing Program Instructions</a></p>
+</div>
+
+</body>
+</html>
