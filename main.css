@@ -12,6 +12,16 @@ color: #69CBBB;
 text-decoration: none;
 }
 
+/* unvisited link */
+a:link {
+  color: navy;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
 h1 {
   padding: 20px 0px 10px 0px;
 }
