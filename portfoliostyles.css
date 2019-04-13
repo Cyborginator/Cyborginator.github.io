@@ -4,5 +4,35 @@ body {
 
 h1 {
     color: green;
-    margin-left: 20px;
+    margin-left: 0px;
+}
+
+h2 {
+    color: green;
+    margin-left: 0px;
+}
+
+h3 {
+    color: green;
+    margin-left: 0px;
+}
+
+  /* unvisited link */
+  a:link {
+    color: navy;
+  }
+
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+
+  /* selected link */
+a:active {
+  color: magenta;
 }
