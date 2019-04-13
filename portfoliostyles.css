@@ -5,16 +5,19 @@ body {
 h1 {
     color: green;
     margin-left: 0px;
+    font-family: cursive;
 }
 
 h2 {
-    color: green;
+    color: lightgray;
     margin-left: 0px;
+    font-family: cursive;
 }
 
 h3 {
-    color: green;
+    color: lightgray;
     margin-left: 0px;
+    font-family: cursive;
 }
 
   /* unvisited link */
