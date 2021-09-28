@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/portfoliostyles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Portfolio</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Art 74
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="glitch.html">Glitch</a></li>
+            <li><a href="mememashup.html">Meme Mashup</a></li>
+  		  <li><a href="minecraft.html">Minecraft</a></li>
+            <li><a href="3dprint.html">3D Print</a></li>
+  		  <li><a href="intro-netart.html">Net Art</a></li>
+  		  <li><a href="processing.html">Processing</a></li>
+  		  <li><a href="finalproject.html">Final Project</a></li>
+      </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Art 75
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="catcam.html">Cat Cam</a></li>
+            <li><a href="projectedplanets.html">Projected Planets</a></li>
+            <li><a href="netart3dprinter.html">Net Art 3D Printer</a></li>
+            <li><a href="holographicprism.html">Holographic Prism</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Art 101
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="robp5avatar.html">ROB P5 Avatar</a></li>
+            <li><a href="intro-drawingmachine.html">Drawing Machine</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Art 106
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="art106project1.html">Project 1</a></li>
+            <li><a href="art106project2.html">Project 2</a></li>
+            <li><a href="art106project3.html">Project 3</a></li>
+            <li><a href="art106project4.html">Project 4</a></li>
+            <li><a href="art106project5.html">Project 5</a></li>
+          </ul>
+        </li>
+        <li><a href="instamorphproject.html">Instamorph Project</a></li>
+        <li><a href="instamorphproject2.html">Instamorph Project 2</a></li>
+  		<li><a href="skullmask.html">Skull Mask</a></li>
+  		<li><a href="3dprintedprop.html">3D Printed Prop</a></li>
+  		<li><a href="3dprinter+model.html">3D Printer & Model</a></li>
+      <li><a href="robotjones.html">Robot Jones Model</a></li>
+      </ul>
+    </div>
+</nav>
+  <h1>Project 5: The Performance Prototype Project</h1>
+  <p></p>
+  <p>For my groups project we are making a prototype that changes what it does based on a temperature sensor using a fan and a screen. Each of us are doing different ideas, for mine I am making a kinetic propeller with a second propeller attached to the one the fan motor spins. The second propeller has a LED on one side and battery on the other, with the main propeller having a counterweight on the other side. The propellers will spin faster or slower depending on the temperature or humidity and make a cool pattern with how the second propeller spins the LED. The screen will display the temperature and humidity as well as what speed the fan is at.</p>
+<p>Unfortunately due to damaged or faulty hardware my original idea wasn't feasible, so instead I made a graph of plotted points of different readings using the temperature sensor. The previous attempt at a kinetic propeller is more my prototype now. Also unfortunately it appears as if the temperature sensor doesn't measure ambient temperature only a difference in temperature, which is difficult to measure without it hooked up to a battery of which all my portable batteries powered off after 10 seconds. Additionally it seems to be giving some temperature coefficient to add or subtract from or maybe Kelvin, it gave a really small number like 4 degrees so I had to improvise and guess what I needed to add or subtract to it to make it the right temperature. Using a working thermometer I was able to make some guesses as to what the numbers I should add or subtract to it. The graph I made shows all the points of my data.</p>
+  <p></p>
+  <p>Temperature/Humidity Sensor Test Video</p>
+  <p></p>
+  <video width="1920" height="1080" controls>
+    <source src="media/project5temperaturesensortestvideo.mp4" type="video/mp4">
+    <source src="media/project5temperaturesensortestvideo.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p></p>
+  <p>Fan Test Video</p>
+  <p></p>
+  <video width="1920" height="1080" controls>
+    <source src="media/project5fantestvideo.mp4" type="video/mp4">
+    <source src="media/project5fantestvideo.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p></p>
+  <p>OLED Display Test Video</p>
+  <p></p>
+  <video width="1080" height="1920" controls>
+    <source src="media/project5displaytestvideo.mp4" type="video/mp4">
+    <source src="media/project5displaytestvideo.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p></p>
+  <p>Project in Enclosure</p>
+  <img src="media/project5enclosure.jpg" class="img-rounded img-responsive" alt "Project Enclosure Top View" class="center-block">
+  <p></p>
+  <img src="media/project5enclosure2.jpg" class="img-rounded img-responsive" alt "Project Enclosure Front View" class="center-block">
+  <p></p>
+  <p>OLED Displaying Temperature and Humidity</p>
+  <p></p>
+  <video width="1080" height="1920" controls>
+    <source src="media/project5temperaturesensortestoled.mp4" type="video/mp4">
+    <source src="media/project5temperaturesensortestoled.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p></p>
+  <p>Kinetic Two Propeller Fan With LED Spinning</p>
+  <p></p>
+  <video width="1080" height="1920" controls>
+    <source src="media/project5kineticfanspinning.mp4" type="video/mp4">
+    <source src="media/project5kineticfanspinning.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p></p>
+  <p>Temperature Graph</p>
+  <img src="media/project5temperaturegraph.png" class="img-rounded img-responsive" alt "Project Temperature Graph" class="center-block">
+  <p></p>
+  <p>Additionally, here is the link to my Arduino and Processing code for the project:</p>
+  <p></p>
+  <a href="downloads/Temperature_Sensor_With_OLED_And_Fan_Intertwined.ino">Arduino Code</a>
+  <p></p>
+  <a href="downloads/Temperature_Graph.pde">Processing Code</a>
+  <p></p>
+</div>
