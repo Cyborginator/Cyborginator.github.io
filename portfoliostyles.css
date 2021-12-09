@@ -1,23 +1,23 @@
 body {
-    background-color: gray;
+    background-color: #E0F2F1;
 }
 
 h1 {
-    color: darkgreen;
+    color: #1E88E5;
     margin-left: 0px;
     font-family: serif;
     font-weight: bold;
 }
 
 h2 {
-    color: lightgray;
+    color: lightblue;
     margin-left: 0px;
     font-family: serif;
     font-weight: bold;
 }
 
 h3 {
-    color: lightgray;
+    color: #01579B;
     margin-left: 0px;
     font-family: serif;
     font-weight: bold;
